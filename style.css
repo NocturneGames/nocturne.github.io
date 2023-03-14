@@ -17,8 +17,6 @@ html, body {
 
 body {
     display: flex;
-    max-width: 600px;
-    min-width: 320px;
     justify-self: center;
     flex-direction: column;
     justify-content: flex-end;
@@ -26,20 +24,32 @@ body {
     background-color: #060526;
     color: #FFEED3;
     overflow: hidden;
+    font-size: 16px;
+    font-family: 'galano_grotesqueregular', sans-serif;
 }
 
 video {
-    margin-bottom: 0;
-    overflow: visible;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    opacity: 0.4;
 }
 video::-webkit-media-controls {
     display: none;
 }
 
-p {
+a {
     margin-top: 32px;
-    font-size: 16px;
-    font-family: 'galano_grotesqueregular', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #060526;
+    text-align: center;
+    background-color: #FFEED3;
+    padding: 15px 32px;
+    border-radius: 4px;
+    font-size: 18px;
 }
 
 #logo {
@@ -60,4 +70,5 @@ p {
     padding: 12px;
     height: 300px;
     top: 200px;
+    z-index: 1;
 }
