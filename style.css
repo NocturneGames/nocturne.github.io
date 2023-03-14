@@ -12,13 +12,13 @@
     }
 
     video {
-        left: -100% !important;
+        left: -400px !important;
     }
  }
 
  @media (min-width: 415px) and (max-width: 1200px) {
     video {
-        left: -50% !important;
+        left: -150px !important;
     }
  }
 
