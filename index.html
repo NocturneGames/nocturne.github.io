@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nocturne Games</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <div id="logo"></div>
+            <p>On a mission to leverage the best indie minds within a market-predicting system, turning creative ideas and skills into hit games thanks to top-tier development, production, and distribution techniques.</p>    
+        </div>
+        <video id="bgVideo" controls preload="true" autoplay loop muted>
+            <source src="match.mp4" type="video/mp4" /> 
+            <source src="match.ogv" type="video/ogv" />    
+            <source src="match.webm" type="video/webm" />             
+         </video>
+         <script>
+            var vids = $("video"); 
+            $.each(vids, function(){
+                this.controls = false; 
+            }); 
+         </script>
+    </body>
+</html>

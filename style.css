@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'galano_grotesqueregular';
+    src: url('./fonts/galanogrotesqueregular-webfont.woff2') format('woff2'),
+         url('./fonts/galanogrotesqueregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    max-width: 600px;
+    min-width: 320px;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #060526;
+    color: #FFEED3;
+    overflow: hidden;
+}
+
+video {
+    margin-bottom: 0;
+    overflow: visible;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+
+p {
+    margin-top: 32px;
+    font-size: 16px;
+    font-family: 'galano_grotesqueregular', sans-serif;
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+    background-image: url('./nocturne.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    position: fixed;
+    margin: auto;
+    max-width: 600px;
+    min-width: 320px;
+    width: 80%;
+    padding: 12px;
+    height: 300px;
+    top: 200px;
+}
