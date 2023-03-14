@@ -34,7 +34,6 @@ body {
     width: 80%;
     display: flex;
     margin: auto;
-    padding-top: 120px;;
     justify-self: center;
     flex-direction: column;
     justify-content: flex-start;
@@ -76,6 +75,7 @@ a {
     /* border-radius: 6px; */
     font-size: 18px;
     margin-top: 22px;
+    margin-bottom: 60px;
 }
 a:hover {
     background-color: #060526;
@@ -86,6 +86,7 @@ a:hover {
 #logo {
     width: 200px;
     height: 50px;
+    margin-top: 60px;
     background-image: url('./nocturne.png');
     background-size: contain;
     background-repeat: no-repeat;
