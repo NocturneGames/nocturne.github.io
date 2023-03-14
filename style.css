@@ -41,13 +41,16 @@ body {
     align-items: flex-start;
     background-color: #07052A;
     color: #FFEED3;
-    overflow: hidden;
     font-size: 16px;
     font-family: 'galano_grotesqueregular', sans-serif;
 }
 
+h1 {
+    margin-top: 250px;
+    font-size: 52px;
+}
+
 p {
-    margin-top: 40px;
     max-width: 600px;
 }
 
@@ -64,15 +67,15 @@ video::-webkit-media-controls {
 }
 
 a {
-    margin-top: 32px;
     display: inline-block;
     text-decoration: none;
     color: #060526;
     text-align: center;
     background-color: #FFEED3;
     padding: 15px 32px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     font-size: 18px;
+    margin-top: 22px;
 }
 a:hover {
     background-color: #060526;
